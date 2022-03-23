@@ -18,4 +18,8 @@ export class CountryService {
     return this.http.get<Country[]>(`${this.apiUrl}/name/${term}`);
   }
 
+  getCountryById( id: string ) {
+    return this.http.get<Country>(`${this.apiUrl}/alpha/${id}`)
+  }
+
 }
