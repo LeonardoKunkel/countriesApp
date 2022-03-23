@@ -24,10 +24,10 @@ export class GetCountryComponent implements OnInit {
   ngOnInit(): void {
 
     this.activatedRoute.params.subscribe( ({ id }) => {
-      console.log( id );
+      // console.log( id );
 
       this.countryService.getCountryById( id ).subscribe( country => {
-        console.log(country);
+        // console.log(country);
         this.country = country[0];
       });
 

@@ -26,7 +26,7 @@ export class FindCountryComponent {
 
     // Call the service____________pass the changing value (term)
     this.countryService.findCountry(this.term).subscribe( countries => {
-      console.log(countries);
+      // console.log(countries);
       // Save the data
       this.countries = countries;
     }, (err) => {

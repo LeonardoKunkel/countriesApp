@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 
 import { FindCountryComponent } from './pages/find-country/find-country.component';
 import { GetCountryComponent } from './pages/get-country/get-country.component';
-import { FindContinentComponent } from './pages/find-continent/find-continent.component';
 import { TableComponent } from './components/table/table.component';
 import { AllCountriesComponent } from './pages/all-countries/all-countries.component';
 
@@ -15,14 +14,12 @@ import { AllCountriesComponent } from './pages/all-countries/all-countries.compo
   declarations: [
     FindCountryComponent,
     GetCountryComponent,
-    FindContinentComponent,
     TableComponent,
     AllCountriesComponent
   ],
   exports: [
     FindCountryComponent,
     GetCountryComponent,
-    FindContinentComponent,
     AllCountriesComponent
   ],
   imports: [
