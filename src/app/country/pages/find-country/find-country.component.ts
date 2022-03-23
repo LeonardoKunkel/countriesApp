@@ -6,11 +6,7 @@ import { Country } from '../../interfaces/country.interface';
 @Component({
   selector: 'app-find-country',
   templateUrl: './find-country.component.html',
-  styles: [`
-    .small-flag {
-      width: 50px;
-    }
-  `]
+  styles: []
 })
 export class FindCountryComponent {
 

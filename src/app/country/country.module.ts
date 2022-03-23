@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { FindCountryComponent } from './pages/find-country/find-country.component';
 import { GetCountryComponent } from './pages/get-country/get-country.component';
 import { FindContinentComponent } from './pages/find-continent/find-continent.component';
+import { TableComponent } from './components/table/table.component';
 
 
 
@@ -13,7 +14,8 @@ import { FindContinentComponent } from './pages/find-continent/find-continent.co
   declarations: [
     FindCountryComponent,
     GetCountryComponent,
-    FindContinentComponent
+    FindContinentComponent,
+    TableComponent
   ],
   exports: [
     FindCountryComponent,
