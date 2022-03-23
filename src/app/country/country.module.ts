@@ -7,6 +7,7 @@ import { FindCountryComponent } from './pages/find-country/find-country.componen
 import { GetCountryComponent } from './pages/get-country/get-country.component';
 import { FindContinentComponent } from './pages/find-continent/find-continent.component';
 import { TableComponent } from './components/table/table.component';
+import { AllCountriesComponent } from './pages/all-countries/all-countries.component';
 
 
 
@@ -15,12 +16,14 @@ import { TableComponent } from './components/table/table.component';
     FindCountryComponent,
     GetCountryComponent,
     FindContinentComponent,
-    TableComponent
+    TableComponent,
+    AllCountriesComponent
   ],
   exports: [
     FindCountryComponent,
     GetCountryComponent,
-    FindContinentComponent
+    FindContinentComponent,
+    AllCountriesComponent
   ],
   imports: [
     CommonModule,

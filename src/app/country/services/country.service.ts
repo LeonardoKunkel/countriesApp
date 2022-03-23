@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 // Import the interface
 import { Country } from '../interfaces/country.interface';
 
@@ -21,6 +20,10 @@ export class CountryService {
 
   getCountryById( id: string ) {
     return this.http.get<Country[]>(`${this.apiUrl}/alpha/${id}`);
+  }
+
+  getAllCountries() {
+    return this.http.get<Country[]>(`${this.apiUrl}/all`)
   }
 
 }

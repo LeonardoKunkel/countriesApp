@@ -2,8 +2,8 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
 import { FindCountryComponent } from './country/pages/find-country/find-country.component';
-import { FindContinentComponent } from './country/pages/find-continent/find-continent.component';
 import { GetCountryComponent } from "./country/pages/get-country/get-country.component";
+import { AllCountriesComponent } from "./country/pages/all-countries/all-countries.component";
 
 // Routes Established
 const routes: Routes = [
@@ -16,8 +16,8 @@ const routes: Routes = [
     },
     // Route to find per continent
     {
-        path: 'continent',
-        component: FindContinentComponent
+        path: 'contries',
+        component: AllCountriesComponent
     },
     // Route to access an especific country
     {
